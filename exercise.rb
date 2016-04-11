@@ -10,3 +10,4 @@ puts 2*3
 print 6/7
 puts "A after adding the file in git now I changed 
 here and saved in working area"
+puts "nothing is clean"
