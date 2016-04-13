@@ -1,61 +1,3 @@
-#This code works
-
-class Customers
-    def initialize(id,name,addr)
-        @cust_id =id
-        @cust_name=name
-        @cust_addr=addr
-    end
-    def display_details()
-        puts "Customer ID: #@cust_id"
-        puts "Customer Name: #@cust_name"
-        puts "Customer Address: #@cust_addr"
-    end
-end
-c1=Customers.new("1","Ashu","USA")
-c1.display_details()
-
-########################################3
-
-class Customers
-    def initialize(id,name,address)
-        @cust_id =id
-        @cust_name=name
-        @cust_addr=address # when i assigned the value address 
-    end
-    def display_details()
-        puts "Customer ID: #@cust_id"
-        puts "Customer Name: #@cust_name"
-        puts "Customer Address: #@cust_addr"
-    end
-end
-c1=Customers.new("1","Ashu","USA")
-c1.display_details()
-
-###################################################
-class Customers
-    def initialize(id,name,address)
-        @cust_id =id
-        @cust_name=name
-        @cust_addr=address # when i assigned the value address 
-    end
-    def display_details()
-        puts "Customer ID: #@cust_id"
-        puts "Customer Name: #@cust_name"
-        puts "Customer Address: #@cust_addr"
-    end
-end
-c1=Customers.new("1","Ashu","USA")
-c2=Customers.new("2","Ashish","India")
-c3=Customers.new("3","jagesh","UK")
-c1.display_details()
-c2.display_details()
-c3.display_details()
-
-##############################################################
-
-####  Assignemnet 
-
 ####### First Try : does not work
 
 class Customers
@@ -203,5 +145,3 @@ c2.display_details()
 c3.display_details()
 people=Customers.new(c1,c2,c3)
 people.display_people()
-
-
